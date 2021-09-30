@@ -1,6 +1,6 @@
 name: "PR Commenter"
 on:
-  - pull-request-target
+  - pull_request_target
 
 jobs:
   pr-comment:
@@ -8,5 +8,5 @@ jobs:
     steps:
       - uses: exercism/pr-commenter-action@v1.3.0
         with:
-          github-token: ${{ github.token }}
-          config-file: .github/pr-commenter.yml
+          github-token: "${{ github.token }}"
+          config-file: ".github/pr-commenter.yml"
