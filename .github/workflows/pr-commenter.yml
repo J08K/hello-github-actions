@@ -1,4 +1,4 @@
-name: "PR Commenter"
+name: PR Commenter
 on:
   - pull_request_target
 
